@@ -31,10 +31,18 @@ local themeparkAPI = themeparkModule:Init("YOUR_URL_HERE","YOUR_TOKEN_HERE")
 --// Note: I recommend removing the "/" at the end of your url, it looks better when you send a path.
 --// If you don't remove it though, you'll have to send a path like this "parks/list" instead of "/parks/list".
 
+--// The following will grab a list of ALL parks:
 local test = themeparkAPI:Get("/parks/list");
 for i,v in pairs(test) do
 	print(v.name);
 end
+
+--// The following will grab a list of ALL rides in DCA.
+local test = themeparkAPI:Get("/parks/DisneylandResortCaliforniaAdventure/rides");
+for i,v in pairs(test) do
+	print(v.name)
+end
+
 ```
 
 - Grab the code from [here](https://github.com/ProgrammerColton/RbxThemeparkAPI/blob/master/roblox/rbxthemeparkapi.lua) and paste it into the module script.
