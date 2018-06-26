@@ -18,6 +18,8 @@ A simple API that gets wait times based on the themepark that you choose on ROBL
 - Create a modulescript in the script you just created, name it **RbxThemeparkAPI**.
 
 - Grab the code from [here](https://github.com/ProgrammerColton/RbxThemeparkAPI/blob/master/roblox/api.lua) and paste it into the server script.
+- Put the URL (that you were supposed to save for later) where it says "YOUR_URL HERE".
+- Put the token (that you were supposed to save for later) where it says "YOUR_TOKEN_HERE".
 
 There is an example inside the above code but I'll post it here as well.
 
