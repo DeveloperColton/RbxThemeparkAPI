@@ -26,14 +26,15 @@ function RbxThemeparkAPI:Get(path)
 		return "Error: Path null."
 	end
 	local result;
+	local decode;
 	local success, err = pcall(function()
 		result = httpService:GetAsync(self.url..path, false, data);
+		decode = httpService:JSONDecode(result);
 	end)
 	if not(success) then
 		return ("Error: " .. err);
 	end
-	return httpService:JSONDecode(result);
+	return decode;
 end
 
 return RbxThemeparkAPI
-
