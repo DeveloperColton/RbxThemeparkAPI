@@ -37,6 +37,7 @@ end
 
 - Grab the code from [here](https://github.com/ProgrammerColton/RbxThemeparkAPI/blob/master/roblox/rbxthemeparkapi.lua) and paste it into the module script.
 
+If you are interested in grabbing the model instead, following the link [here](https://www.roblox.com/library/2006478433/Themepark-API-Example)
 You can view all the possible parks in the API thanks to the following note that this API uses:
 https://github.com/cubehouse/themeparks
 
