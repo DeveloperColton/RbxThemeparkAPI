@@ -1,0 +1,17 @@
+{
+    "name": "RbxThemeparkAPI",
+    "description": "A simple API that gets wait times based on the themepark that you choose on ROBLOX game servers.",
+    "keywords": [
+      "roblox",
+      "themeparks",
+      "rides",
+      "api"
+    ],
+    "repository": "https://github.com/ProgrammerColton/RbxThemeparkAPI",
+    "env": {
+      "TOKEN_KEY": {
+        "description": "A secret key for verifying the authentication of the request.",
+        "generator": "secret"
+      }
+    }
+}

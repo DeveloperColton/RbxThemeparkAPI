@@ -1,0 +1,20 @@
+{
+  "name": "rbxthemeparkapi",
+  "version": "1.0.0",
+  "description": "A simple API that allows you to send GET requests to a server and return information back.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ProgrammerColton/RbxThemeparkAPI"
+  },
+  "author": "ProgrammerColton [programmercolton@gmail.com]",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "themeparks": "^4.7.0"
+  }
+}
