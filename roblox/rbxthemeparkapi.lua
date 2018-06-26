@@ -27,6 +27,7 @@ function RbxThemeparkAPI:Get(path)
 	end
 	local result;
 	local decode;
+	print("Fetching data...");
 	local success, err = pcall(function()
 		result = httpService:GetAsync(self.url..path, false, data);
 		decode = httpService:JSONDecode(result);
