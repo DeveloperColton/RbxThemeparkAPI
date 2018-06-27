@@ -29,6 +29,9 @@ __________________________________________________________
 
 	I don't explain very well and if you need more help, hit me up on my email:
 	programmercolton@gmail.com
+
+	You can also visit the repository here:
+	https://github.com/ProgrammerColton/RbxThemeparkAPI
 		
 	If you want to view the possible parks, go to this page:
 	https://github.com/cubehouse/themeparks
