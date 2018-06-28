@@ -26,10 +26,6 @@ __________________________________________________________
 	Params: {park, which must be the park id from "/parks/list}
 			{ride, which must be the ride name which can be gotten from "/parks/:park/rides"}
 	
-
-	I don't explain very well and if you need more help, hit me up on my email:
-	programmercolton@gmail.com
-
 	You can also visit the repository here:
 	https://github.com/ProgrammerColton/RbxThemeparkAPI
 		
